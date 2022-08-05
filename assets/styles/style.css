@@ -1,0 +1,72 @@
+#A1,#A2 {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 45%;
+  align-self: baseline;
+  align-items: flex-start;
+}
+
+#A3{
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+#A4{
+display: flex;
+flex-direction: column;
+align-self: center;
+}
+
+.head{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.story{
+    display: flex;
+  flex-wrap: wrap;
+  height: 45%;
+  width: 100%;
+}
+
+.info{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+p.info{
+  font-weight: 300;
+}
+
+img{
+  width: 320px;;
+}
+
+h3{
+  font-weight: bold;
+}
+
+aside {
+  float: right;
+ margin: 0 80%;
+ width: 240px;
+ }
+
+ aside{
+  background: #8dbbfd;
+ }
+ 
+ .head{
+  background:#ff6e6e;
+ }
+
+ .story{
+  background: #e0ecfd;
+ }
+
+ .info{
+ background: #63a6ff ;
+ }
